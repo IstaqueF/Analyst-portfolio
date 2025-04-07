@@ -43,14 +43,14 @@ We use a time series dataset with the following features:
 ## ⚙️ Steps Performed
 
 1. **Stationarity Test (ADF Test)**:
-   - ADF Statistic: `-1.24`
-   - p-value: `0.65`
-   - ❌ Series is NOT stationary
+- ADF Statistic: **-1.25**
+- p-value: **0.65**
+- ❌ **Non-stationary** → Apply differencing
 
 2. **First Differencing**:
-   - ADF Statistic: `-9.79`
-   - p-value: `6.37e-17`
-   - ✅ Series IS stationary
+- ADF Statistic: **-7.39**
+- p-value: **8.07e-11**
+- ✅ **Stationary**
 
 3. **Model Identification** (based on ACF/PACF):
    - `(p,d,q) = (1,1,2)`
@@ -73,7 +73,7 @@ We use a time series dataset with the following features:
 
 ```plaintext
 ADF Test (Original): p = 0.65 → Not stationary
-ADF Test (1st Diff): p = 0.0000 → Stationary
+ADF Test (1st Diff): p = 8.07e-11 → Stationary
 
 Selected SARIMA Order: (1,1,2)(1,1,1,7)
 
