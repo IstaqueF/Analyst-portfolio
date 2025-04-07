@@ -35,10 +35,11 @@ Welcome to my Pricing Analyst project portfolio! This repository showcases a ser
 Each folder includes:
 - 📘 A Jupyter notebook (`.ipynb`) with detailed code and markdown explanations
 - 📊 A `data/` folder with the raw CSVs
+- A Readme file explaining details about the project
 
 Feel free to run the notebooks or browse through the markdown cells for a narrative walkthrough.
 
 ---
 
 ## 📬 Contact
-Interested in collaborating or hiring? Reach me on [LinkedIn](https://www.linkedin.com/) or email at yourname@example.com.
+Interested in collaborating or hiring? email at istfais82@yahoo.com
