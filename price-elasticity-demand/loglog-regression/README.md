@@ -27,7 +27,5 @@ The dataset includes the following columns:
 ---
 
 ## 📈 Output Example
-
-```plaintext
-Price Elasticity Coefficient: -1.45
-Interpretation: A 1% increase in price leads to a 1.45% drop in demand.
+Price Elasticity Coefficient: -0.76
+Interpretation: A 1% increase in price is expected to lead to a 0.76% decrease in demand.
