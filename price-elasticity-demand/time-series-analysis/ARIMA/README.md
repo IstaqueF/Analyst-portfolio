@@ -65,11 +65,26 @@ A series must be **stationary** for ARIMA to work properly (i.e., constant mean 
 
 ## 🧾 Example Output
 
-```plaintext
-ADF Test Statistic: -3.45
-p-value: 0.012
-=> Series is stationary after first differencing
+ADF Test result
+ADF Statistic (original): -1.25  
+p-value: 0.6526  
+❌ Conclusion: Series is NOT stationary
 
-Selected ARIMA(p,d,q): (2,1,1)
+ADF Statistic (after 1st differencing): -9.79  
+p-value: 6.38e-17  
+✅ Conclusion: Differenced series is stationary
 
-Forecast Plot: Future demand closely follows historical pattern
+Selected ARIMA order
+Based on ACF/PACF plots:
+p = 14  # from PACF  
+d = 1   # first differencing  
+q = 2   # from ACF
+
+Forecast Results
+RMSE: 27.60  - A good result considering the scale of the demand in the dataset
+Forecast captures seasonality and trend well.  
+Future demand closely follows historical pattern.
+
+
+
+
