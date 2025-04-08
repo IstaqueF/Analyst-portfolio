@@ -1,6 +1,6 @@
-# 🧠 Pricing Analyst Portfolio
+# 🧠 Analyst Portfolio
 
-Welcome to my Pricing Analyst project portfolio! This repository showcases a series of data science projects focused on pricing, revenue optimization, and marketing experiments. All projects are built using Python (Jupyter Notebooks) and real or simulated data.
+Welcome to my Analyst project portfolio! This repository showcases a series of data science projects focused on pricing, revenue optimization, and marketing experiments. All projects are built using Python (Jupyter Notebooks) and real or simulated data.
 
 ---
 
