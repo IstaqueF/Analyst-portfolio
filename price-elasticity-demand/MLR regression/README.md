@@ -39,9 +39,17 @@ To build an MLR model that accurately predicts product prices based on the above
 ---
 
 ## 📈 Sample Output
-Adjusted R²: 0.89
-RMSE on test set: 2.75
+This model estimates how various external and internal factors influence product pricing through a multiple linear regression framework. The high R² value of 0.9965 indicates that the model explains nearly all the variance in price, showing strong predictive performance.
 
-Points above the line: Predicted > Actual The model thinks the value is higher than it truly is. 👉 Overestimation
-Points below the line: Predicted < Actual The model thinks the value is lower than it actually is. 👉 Underestimation
+Key insights from feature coefficients:
+
+Promotion (-4.03) has the largest negative impact, suggesting that when promotions are active, the price drops significantly—consistent with typical marketing strategies.
+
+Seasonality (+3.00) and Economic Index (+2.09) positively influence price, indicating that prices tend to rise during peak seasonal periods or favorable economic conditions.
+
+Competitor Price (-0.30) has a moderate inverse relationship with our price, suggesting competitive pricing pressure.
+
+Demand (+0.05) shows a small but positive influence, implying slight price flexibility with increased demand.
+
+This model helps interpret price elasticity by quantifying how sensitive price is to changes in other variables, supporting strategic pricing decisions.
 
