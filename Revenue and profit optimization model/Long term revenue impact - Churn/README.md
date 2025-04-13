@@ -48,6 +48,17 @@ The dataset includes the following features:
 
 ## 📈 Conclusion
 
-- The model effectively identifies churners with high precision and recall.
-- ROC AUC score of **0.95** indicates strong discrimination between churn and non-churn customers.
-- This model can support retention strategies by identifying high-risk customers.
+Churn Prediction with XGBoost
+The model performs well in predicting customer churn, with an overall accuracy of 87% and a strong ROC AUC score of 0.95, indicating excellent class separation.
+
+Key metrics:
+Precision (Churn = 1): 0.89 — 89% of predicted churn cases were correct.
+Recall (Churn = 1): 0.86 — The model correctly identified 86% of actual churners.
+
+Balanced performance for both churners and non-churners, making it reliable for real-world deployment.
+
+Confusion Matrix Insight:
+863 churners correctly predicted, 144 missed
+886 non-churners correctly predicted, 107 misclassified
+
+Overall, the model is highly effective for early churn detection and can support targeted retention strategies.
