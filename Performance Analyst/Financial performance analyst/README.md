@@ -69,6 +69,23 @@ The dataset includes:
 
 ---
 
+## Conclusion 
+Financial Performance Analysis – Isolation Forest
+This analysis evaluates departmental profit performance and identifies anomalies in expense patterns using the Isolation Forest algorithm.
+
+🏆 Top Performing Departments:
+Finance and Sales lead with the highest profits (~$202K), reflecting strong financial control and revenue generation.
+
+⚠️ Underperforming Departments:
+IT and Operations reported lower profits (~$199K), indicating areas where cost structure or resource efficiency may need attention.
+
+🔍 Key Insights:
+Scenario Analysis revealed an average profit decrease of $29,966, highlighting potential risks in current cost or revenue strategies.
+
+100 anomalies were detected in expense records, suggesting irregular spending that warrants further investigation.
+
+These findings support a proactive approach to improving financial performance through anomaly detection, cost control, and scenario planning.
+
 ## 📬 Contact
 
 For collaboration or questions, feel free to reach out:  
