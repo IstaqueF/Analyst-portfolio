@@ -44,7 +44,7 @@ This project applies **K-Means clustering** to segment customers based on behavi
 
 ## 🔍 Sample Output
 
-**Optimal Clusters**: 4  
+**Optimal Segment: Cluster 3 – Represents high-income, high-loyalty customers with strong purchasing behavior and moderate discount sensitivity. Ideal for premium targeting and retention strategies.
 **Silhouette Score**: 0.14
 **Davies-Bouldin Index: 1.87
 
