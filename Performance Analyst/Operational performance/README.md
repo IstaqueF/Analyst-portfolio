@@ -69,6 +69,27 @@ The dataset includes:
 
 ---
 
+## Conclusion
+Operational Performance Analysis – Executive Summary
+🔧 Key Bottlenecks:
+The Assembly stage was identified as the main bottleneck, potentially slowing down overall production flow.
+
+🛑 Highest Downtime Stages (Pareto):
+Cutting (20,257 min)
+
+Packaging (20,155 min)
+
+Inspection (19,920 min)
+These three stages account for the bulk of total downtime and are prime targets for process improvement.
+
+⏱️ Shift Efficiency:
+Evening shift showed the highest average efficiency (85.2%), slightly outperforming Morning and Night shifts.
+
+🚨 Operational Alerts:
+A total of 2,318 delay alerts were triggered, indicating frequent disruptions that require root cause analysis and resolution.
+
+Focused intervention in the assembly stage and high-downtime processes can significantly improve operational throughput and reliability.
+
 ## 🛠️ Technologies Used
 
 - **Python**: `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
