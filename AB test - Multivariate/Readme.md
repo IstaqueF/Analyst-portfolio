@@ -63,7 +63,7 @@ The dataset contains user-level session data with the following fields:
   - Pseudo R-squared = **0.0024** → Model explains very little variance
 
 ---
-
+**
 ## 📉 Logistic Regression Summary (Extract)
 
 | Variable               | Coef     | P-Value  | Significance |
@@ -75,7 +75,18 @@ The dataset contains user-level session data with the following fields:
 
 > ℹ️ Most categorical variables had **no significant impact** on conversion at 95% confidence level.
 
----
+---**A/B Testing (Multivariate) – Logistic Regression
+A logistic regression model was used to evaluate the impact of multiple factors (price points, discounts, channels, devices, and demographics) on conversion probability.
+
+🔍 Key Findings:
+The model is statistically not significant overall (LLR p-value = 0.6098, Pseudo R² = 0.0024), meaning it explains very little variation in conversion.
+
+Only price point $29.99 showed a statistically significant effect (p = 0.002), with a negative coefficient (-0.274)—suggesting this price reduces the likelihood of conversion.
+
+All other factors (discounts, marketing channels, device types, etc.) had no significant impact on conversion (p-values > 0.05).
+
+📌 Final Verdict:
+This test did not reveal any strong drivers of conversion except that setting the price at $29.99 reduces conversion likelihood. Further testing or alternative modeling may be needed to better understand what influences conversion behavior.
 
 
 
