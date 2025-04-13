@@ -81,9 +81,8 @@ d = 1   # first differencing
 q = 2   # from ACF
 
 Forecast Results
-RMSE: 27.60  - A good result considering the scale of the demand in the dataset
-Forecast captures seasonality and trend well.  
-Future demand closely follows historical pattern.
+An ARIMA model was used to predict future demand, which historically ranged between 325 and 475 units. The model achieved an RMSE of 27.60, indicating a moderate prediction error relative to the total range.
+This level of accuracy suggests the model captures general demand trends but may struggle with short-term fluctuations. It can still be valuable for high-level planning, inventory management, and identifying overall demand direction.
 
 
 
