@@ -47,3 +47,18 @@ This project applies **K-Means clustering** to segment customers based on behavi
 **Optimal Clusters**: 4  
 **Silhouette Score**: 0.14
 **Davies-Bouldin Index: 1.87
+
+Customer Segmentation with Clustering
+The model segments customers into four distinct clusters based on behavioral and demographic features. Despite a modest Silhouette Score (0.14) and Davies-Bouldin Index (1.87) indicating some overlap between clusters, the segmentation still reveals useful customer patterns for targeted strategies.
+
+Cluster Profiles:
+
+Cluster 0: Mid-income, low cart value, moderately price-sensitive. Potential for upselling or bundle offers to increase cart size.
+
+Cluster 1: High income, low cart value, highly discount-sensitive. Likely deal-seekers—respond well to personalized promotions.
+
+Cluster 2: Upper-middle income, slightly higher purchase frequency, least discount-sensitive. Likely loyal customers not driven by discounts.
+
+Cluster 3: Highest income, high cart value, high loyalty. Ideal high-value customers—great for loyalty programs and retention efforts.
+
+These insights support more personalized marketing strategies and help optimize promotions and customer experience based on segment behavior.
