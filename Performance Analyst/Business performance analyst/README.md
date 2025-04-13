@@ -92,11 +92,11 @@ Finance (East) also trails its counterparts, requiring closer operational review
 🔍 Key Revenue Drivers (via SHAP):
 While Sales Volume was the strongest predictor (as expected), the top actionable drivers included:
 
-Operational Cost – Higher costs tend to negatively impact revenue.
+- Operational Cost – Higher costs tend to negatively impact revenue.
 
-Marketing Spend – Positively associated with higher revenue when optimized.
+- Marketing Spend – Positively associated with higher revenue when optimized.
 
-Customer Satisfaction – Strong contributor, reinforcing the value of service quality.
+- Customer Satisfaction – Strong contributor, reinforcing the value of service quality.
 
 These insights provide a data-backed foundation for boosting revenue in underperforming areas through better cost control, smarter marketing allocation, and improved customer experience.
 
