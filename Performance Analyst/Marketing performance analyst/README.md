@@ -68,6 +68,19 @@ The dataset contains:
 
 ---
 
+## Conclusion 
+Marketing Performance Analysis – Executive Summary
+🏆 Top Campaigns by ROAS:
+Campaign A delivered the highest Return on Ad Spend (ROAS) at 0.335, closely followed by Campaign C and Campaign B, indicating efficient budget utilization across these top performers.
+
+🎯 Most Responsive Segments:
+Returning Customers showed the highest conversion rate (15.2%), slightly ahead of New Customers (15.1%) and Loyal Customers (14.9%), highlighting valuable opportunities for re-engagement.
+
+💰 Budget Optimization Insight:
+Marketing ROI simulation suggests the optimal budget range lies between $2,000–$5,000, balancing cost efficiency with campaign effectiveness.
+
+These insights can guide smarter targeting and budget allocation to maximize marketing returns.
+
 ## 📬 Contact
 
 Interested in working together or have questions?  
